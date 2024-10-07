@@ -1,0 +1,56 @@
+body>div
+{
+    width: 40%;
+    margin: 0 auto;
+}
+.three-cols
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.three-cols-item
+{
+    margin: 0px 15px;
+}
+.three-cols-item:first-child
+{
+    margin-left: 0px;
+}
+.three-cols-item:last-child
+{
+    margin-right: 0px;
+}
+.three-cols-item > label
+{
+    font-size: 20px;
+}
+#cmyk-values
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.cmyk-value
+{
+    margin: 0px 15px;
+}
+.cmyk-value:first-child
+{
+    margin-left: 0px;
+}
+.cmyk-value:last-child
+{
+    margin-right: 0px;
+}
+label
+{
+    color: #555;
+}
+.title
+{
+    color: #555;
+}
+h1
+{
+    color: #555;
+}
